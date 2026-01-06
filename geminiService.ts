@@ -1,6 +1,8 @@
 
 import { GoogleGenAI, Type, Modality } from "@google/genai";
 import { LearningModule, Language, UserMood } from "../types";
+import { something } from "./services/GeminiService";
+
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
