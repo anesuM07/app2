@@ -1,5 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
+import { something } from "./services/geminiService";
+
 import { 
   Search, Mic, Image as ImageIcon, Sparkles, BookOpen, 
   ChevronRight, GraduationCap, X, Send, 
